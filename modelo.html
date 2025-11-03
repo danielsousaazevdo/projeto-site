@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculador Viagem</h1>
+    </header>
+    <section>
+        <div>
+            <p>Distância em Km: <input type="number" name="distancia" id="txtkm"> <input type="button" value="Adicionar"onclick="addvalor()"></p>
+            <p>Consumo médio do veículo (Km/l): <input type="number" name="consumo" id="txtcon"> <input type="button" value="Adicionar"onclick="addvalor()"></p>
+            <p>Preco do combustível (R$/L): <input type="number" name="combustivel" id="txtvalor"> <input type="button" value="Adicionar"onclick="addvalor()"></p>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+            <p>Resultado:</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
